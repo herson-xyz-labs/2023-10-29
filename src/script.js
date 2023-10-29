@@ -63,7 +63,7 @@ const material = new THREE.RawShaderMaterial({
 })
 
 const loader = new GLTFLoader();
-loader.setPath( '/models/' );
+loader.setPath( './models/' );
 loader.load( 'futurama-scene.glb', function ( model ) 
     {
         model.scene.traverse( function ( model ) 
